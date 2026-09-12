@@ -1,0 +1,7 @@
+{
+  "theme": "dark",
+  "agentPushNotifEnabled": true,
+  "attribution": {
+    "sessionUrl": false
+  }
+}
