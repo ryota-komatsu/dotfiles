@@ -10,6 +10,7 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.fontSize": 13,
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "none",
     "editor.suggest.filterGraceful": false,
     "editor.suggest.showClasses": false,
@@ -41,19 +42,19 @@
     "editor.suggest.showWords": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.wordWrap": "on",
-    "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
     "explorer.enableDragAndDrop": false,
+    "files.exclude": {
+        "**/.git": false
+    },
     "git.confirmSync": false,
     "git.ignoreMissingGitWarning": true,
     "github.copilot.nextEditSuggestions.enabled": false,
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk",
-            "tools": [
-                "latexmk"
-            ]
-        },
+            "tools": ["latexmk"]
+        }
     ],
     "latex-workshop.latex.tools": [
         {
@@ -69,14 +70,11 @@
                 "%DOC%"
             ],
             "env": {}
-        },
+        }
     ],
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.bibtex-format.tab": "4 spaces",
-    "files.exclude": {
-        "**/.git": false
-    },
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
@@ -93,7 +91,6 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "python.analysis.typeCheckingMode": "standard",
-    "python.createEnvironment.trigger": "off",
     "redhat.telemetry.enabled": true,
     "remote.autoForwardPortsSource": "hybrid",
     "ruff.lineLength": 120,
@@ -102,8 +99,10 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.initialHint": false,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3,
     "terminal.integrated.suggest.enabled": false,
     "update.showReleaseNotes": false,
     "workbench.colorTheme": "Dark Modern",
