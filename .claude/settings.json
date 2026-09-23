@@ -2,6 +2,7 @@
   "attribution": {
     "sessionUrl": false
   },
+  "model": "opus",
   "theme": "dark",
   "agentPushNotifEnabled": true,
   "awaySummaryEnabled": false
